@@ -6,12 +6,14 @@ import { MyFormComponent } from './my-form/my-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule} from '@angular/material/form-field'
 import { HomeworkFormComponent } from './homework-form/homework-form.component';
+import { ExchangeRateComponent } from './exchange-rate/exchange-rate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFormComponent,
-    HomeworkFormComponent
+    HomeworkFormComponent,
+    ExchangeRateComponent
   ],
   imports: [
     BrowserModule,
